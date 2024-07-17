@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333; /* Dark theme for threat intelligence */
+    color: #fff; /* White text color */
+    text-align: center; /* Center align all text */
+    font-family: Arial, sans-serif; /* Use a standard, easy-to-read font */
+    background-image: url('/static/welcomeimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    margin-top: 50px; /* Add some spacing at the top */
+}
+
+p {
+    line-height: 2; /* Increase space between lines */
+}
+
+a {
+    display: block; /* Make the links appear on their own lines */
+    width: 200px; /* Fixed width */
+    height: 50px; /* Fixed height */
+    background: #ff6347; /* A bright, appealing color */
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 50px;
+    margin: 20px auto; /* Center the links and add some vertical margin */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    background: #ff00b3; /* Darken the color a bit when hovering */
+}

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2f3542; /* Dark grey theme */
+    color: #f1f2f6; /* Light grey text color */
+    text-align: center; /* Center align all text */
+    font-family: Arial, sans-serif; /* Use a standard, easy-to-read font */
+    background-image: url('/static/loginimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    margin-top: 50px; /* Add some spacing at the top */
+}
+
+form {
+    display: inline-block;
+    margin-top: 50px; /* Add some spacing at the top */
+}
+
+input[type="text"], input[type="password"] {
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin: 20px auto;
+    background: #57606f; /* Dark grey */
+    border: none;
+    padding: 10px;
+    color: #f1f2f6;
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 20px auto;
+    background: #747d8c; /* Lighter grey */
+    color: #f1f2f6;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover {
+    background: #57606f; /* Brighter grey */
+}

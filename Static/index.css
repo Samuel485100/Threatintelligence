@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e272e; /* Dark grey theme */
+    color: #dcdde1; /* Light grey text color */
+    text-align: center; /* Center align all text */
+    font-family: Arial, sans-serif; /* Use a standard, easy-to-read font */
+}
+
+h1 {
+    margin-top: 50px; /* Add some spacing at the top */
+}
+
+#logout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #2f3640; /* Dark grey button */
+    color: #dcdde1; /* Light grey text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#logout:hover {
+    background-color: #353b48; /* Slightly lighter grey when hovered */
+}
+
+#pie {
+    position: absolute;
+    top: 10px; /* Same vertical position as the Logout button */
+    right: 140px; /* Adjust this value as needed to position the Pie button to the left of the Logout button */
+    background-color: #2f4039; /* Dark grey button */
+    color: #dcdde1; /* Light grey text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#pie:hover {
+    background-color: #3c3548; /* Slightly lighter grey when hovered */
+}
+
+table {
+    width: 80%; /* Make the table a bit narrower */
+    margin: auto; /* Center the table */
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dcdde1; /* Light grey border */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #2f3640; /* Dark grey header */
+    color: #dcdde1; /* Light grey text */
+}
